@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  margin: 0.5rem;
+}
+
+button[type="submit"] {
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover{
+  background-color: rgb(200, 200, 200);
+  color: #1f1f1f;
+}
+
+ul {
+  & li {
+    list-style: none;
+    font-size: 2rem;
+    margin: 0.5rem;
+
+    & button {
+      border: none;
+      border-radius: 0.5rem;
+      padding: 0.75rem;
+      background-color: red;
+      cursor: pointer;
+    }
+    & button:hover{
+      background-color: rgb(255, 99, 99);
+
+    }
+  }
+}
